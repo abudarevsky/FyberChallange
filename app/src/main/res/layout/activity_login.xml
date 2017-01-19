@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_login"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="Fyber Challange"
+        android:layout_margin="10dp"
+        android:paddingBottom="10dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <EditText
+            android:id="@+id/appid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint"
+            android:hint="@string/hint_appid"
+            android:text="2070" />
+
+        <EditText
+            android:id="@+id/apikey"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/white"
+            android:hint="@string/hint_deviceid"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint"
+            android:text="1c915e3b5d42d05136185030892fbb846c278927" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/pub0"
+            android:layout_width="fill_parent"
+            android:singleLine="true"
+            android:hint="@string/hint_pub0"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint"
+            android:background="@color/white"
+            android:layout_marginBottom="@dimen/abc_action_bar_overflow_padding_end_material"
+            android:padding="@dimen/abc_action_bar_overflow_padding_end_material"
+            android:text="campaign2" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/uid"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:hint="@string/hint_uid"
+            android:textColor="@color/input_login"
+            android:textColorHint="@color/input_login_hint"
+            android:background="@color/white"
+            android:layout_marginBottom="@dimen/abc_action_bar_overflow_padding_end_material"
+            android:padding="@dimen/abc_action_bar_overflow_padding_end_material"
+            android:text="spiderman" />
+
+        <!-- Login Button -->
+
+        <!-- Link to Login Screen -->
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/btn_login_bg"
+        android:text="@string/btn_login"
+        android:textColor="@color/btn_login" />
+
+</LinearLayout>
